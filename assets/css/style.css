@@ -1,0 +1,281 @@
+/* GOOGLE FONTS - IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@400&display=swap');
+
+/* =================== */
+/* GENERAL FORMATTING */
+/* =================== */
+html {
+    scroll-behavior: smooth;
+}
+
+#subheading {
+    padding: 0;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+#footer-content {
+    margin-top: 25vh;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.75pt;
+    color: #141414;
+    padding-right: 0px!important;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+}
+
+.container i {
+    margin-right: 10px;
+}
+
+.d-flex a {
+    font-family: "Montserrat", sans-serif;
+    color: #bd6183;
+    text-decoration: none;
+}
+
+.d-flex a:hover {
+    color: #903c5b;
+    text-decoration: none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.container img {
+    transition: 0.5s;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+/* ================ */
+/* NAVIGATION BAR */
+/* ================ */
+header {
+    background-color: black;
+    transition: all 0.5s;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#h1-home {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 2.5vw;
+}
+
+#a-home {
+    color: #d59ab0;
+}
+
+#a-home:hover {
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 5px;
+    margin: 5px;
+}
+
+.navbar a {
+    color: white;
+    transition: 0.3s;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #ffed66;
+}
+
+/* ====================== */
+/* ABOUT - LANDING PAGE */
+/* ====================== */
+#about {
+    width: 100%;
+    background: url("../img/1.gif");
+    background-size: cover;
+    position: relative;
+}
+
+#about .container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#buttons {
+    padding-top: 20px;
+}
+
+#buttons a, btn {
+    text-decoration: none;
+}
+
+#profile-pic {
+    width: 85%;
+}
+
+#horizontal-center {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+btn {
+    background-color: white;
+    padding: 5px 10px;
+    margin-right: 8px;
+}
+
+/* ============= */
+/* CREDENTIALS */
+/* ============= */
+#credentials {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    position: relative;
+    background-color: white;
+}
+
+#credentials-logos {
+    width: 85%;
+}
+
+#credentials-container {
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.row li {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-bottom: 3px;
+}
+
+.row p {
+    font-size: 11pt;
+}
+
+/* ====================== */
+/* SKILLS & ACHIEVEMENTS */
+/* ====================== */
+#skills {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: #f9f1f4;
+}
+
+#skills-container {
+    padding-top: 65px;
+}
+
+#img-skills {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+#img-skills-adobe {
+    margin-bottom: 20px;
+    width: 63%;
+}
+
+/* ======== */
+/* GALLERY */
+/* ======== */
+#gallery {
+    background-color: white;
+    padding: 10vh 10vh;
+}
+
+.carousel-inner > .carousel-item > img,
+.carousel-inner > .carousel-item > a > img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    border-radius: 0;
+    width: 40px;
+}
+
+.carousel-item:hover {
+    cursor: pointer;
+}
+
+.glyphicon {
+    color: white;
+}
+
+.modal {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+
+.modal-open {
+   overflow-y: auto;
+}
+
+.modal-body {
+    margin: 15px;
+}
+
+#modal-imgs {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#img-captions {
+    font-family: "Montserrat", sans-serif;
+    margin: 15px;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+/* ============= */
+/* CONTACT ME */
+/* ============= */
+#contact {
+    background-color: #edd4dd;
+}
+
+#footer-content {
+    padding-bottom: 20px;
+}
