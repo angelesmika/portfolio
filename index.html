@@ -33,16 +33,26 @@
     <div id="page-container">
         <!-- NAVIGATION BAR -->
         <header class="sticky-top">
-            <div class="container d-flex align-items-center">
-                <h1 id="h1-home"><a id="a-home" href="index.html">mika.</a></h1>
-                <nav class="navbar navbar-nav d-lg-block">
-                    <ul>
-                        <li><a href="#about">Home</a></li>
-                        <li><a href="#credentials">Credentials</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+            <div class="container d-flex">
+                <nav class="nav navbar-expand-md">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navButtons">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+    
+                    <h1 id="h1-home"><a id="a-home" href="index.html">mika!</a></h1>
+                    <div class="collapse navbar-collapse" id="navButtons">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#about">Home</a></li>
+                            <li><a href="#credentials">Credentials</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -51,7 +61,7 @@
         <section id="about" class="d-flex">
             <div class="container text-justify align-items-center" data-aos="zoom-in" data-aos-delay="100">
                 <div class="row">
-                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-4" data-aos="zoom-in" data-aos-delay="100">
                         <img id="profile-pic" src="assets/img/profile-pic.png">
                     </div>
                     <div id="horizontal-center" class="col-lg-6">
@@ -78,10 +88,10 @@
 
                 <h3 id="subheading">WORK EXPERIENCE</h3>
                 <div id="credentials-container" class="row text-justify">
-                    <div class="col-lg-2">
+                    <div class="col-2">
                         <a href="https://www.facebook.com/codingschoolph" target="_blank"><img id="credentials-logos" src="assets/img/tcs-logo.png"></a>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-9">
                         <h4 id="subheading">The Coding School</h4>
                         <ul>
                             <li>Coding Coach | June 2020 - December 2020</li>
@@ -90,10 +100,10 @@
                     </div>
                 </div>
                 <div id="credentials-container" class="row text-justify">
-                    <div class="col-lg-2">
+                    <div class="col-2">
                         <a href="https://www.facebook.com/frontlinerskitchen" target="_blank"><img id="credentials-logos" src="assets/img/fk-logo.png"></a>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-9">
                         <h4 id="subheading">Frontliners' Kitchen</h4>
                         <ul>
                             <li>Assistant Vice Chairperson for Creatives | November 2020 - Present</li>
@@ -107,10 +117,10 @@
 
                 <h3 id="subheading">EDUCATIONAL HISTORY</h3>
                 <div id="credentials-container" class="row text-justify">
-                    <div class="col-lg-2">
+                    <div class="col-2">
                         <img id="credentials-logos" src="assets/img/up-logo.png">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-9">
                         <h4 id="subheading">University of the Philippines - Diliman</h4 id="subheading">
                         <ul>
                             <li>Bachelor of Science in Computer Science | August 2018 - Present</li>
@@ -119,10 +129,10 @@
                     </div>
                 </div>
                 <div id="credentials-container" class="row text-justify">
-                    <div class="col-lg-2">
+                    <div class="col-2">
                         <img id="credentials-logos" src="assets/img/qcshs-logo.png">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-9">
                         <h4 id="subheading">Quezon City Science High School</h4 id="subheading">
                         <ul>
                             <li>Senior High School - STEM Strand | June 2016 - April 2018</li>
@@ -136,10 +146,10 @@
 
                 <h3 id="subheading">ORGANIZATIONS</h3>
                 <div id="credentials-container" class="row text-justify">
-                    <div class="col-lg-2">
+                    <div class="col-2">
                         <a href="https://www.facebook.com/upcsi/"><img id="credentials-logos" src="assets/img/csi-logo.png"></a>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-9">
                         <h4 id="subheading">UP Center for Student Innovations (UP CSI)</h4 id="subheading">
                         <ul>
                             <li>Project Manager | December 2019 - Present</li>
@@ -148,10 +158,10 @@
                     </div>
                 </div>
                 <div id="credentials-container" class="row text-justify">
-                    <div class="col-lg-2">
+                    <div class="col-2">
                         <a href="https://www.facebook.com/UPCURSOR/"><img id="credentials-logos" src="assets/img/cursor-logo.png"></a>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-9">
                         <h4 id="subheading">UP Association of Computer Science Majors (UP CURSOR)</h4 id="subheading">
                         <ul>
                             <li>Social Media Team Head | September 2020 - Present</li>
@@ -184,7 +194,7 @@
                     <div class="col-lg-4 align-items-center text-center">
                         <img id="img-skills" src="assets/img/discord-logo.png">
                         <h4 id="subheading">Discord</h4 id="subheading">
-                        <p>Created unlicensed Discord bots for personal entertainment (games, notifiers, etc.)</p>
+                        <p id="last">Created unlicensed Discord bots for personal entertainment (games, notifiers, etc.)</p>
                     </div>
                 </div>
             </div>
@@ -375,15 +385,13 @@
 
         <!-- CONTACT ME -->
         <section id="contact" class="d-flex">
-            <div class="container position-relative text-justify text-lg-justify" data-aos="fade-up" data-aos-delay="100">
-                <div class="row">
-                    <div id="footer-content">
-                        <h3 id="subheading">Contact Me</h2>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"></i>27 16th Avenue, Cubao, Quezon City<br>
-                        <i class="fa fa-mobile" aria-hidden="true"></i>(+63) 945 113 0986<br>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>angelesmika8@gmail.com</p>
-                        <footer>gif by MIUROKO<br>icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br>this site isn't mobile-friendly, sorry :(</footer>
-                    </div>
+            <div class="container text-justify" data-aos="fade-up" data-aos-delay="100">
+                <div id="footer-content">
+                    <h3 id="subheading">CONTACT ME</h2>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>27 16th Avenue, Cubao, Quezon City<br>
+                    <i class="fa fa-mobile" aria-hidden="true"></i>(+63) 945 113 0986<br>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>angelesmika8@gmail.com</p>
+                    <footer>gif by MIUROKO<br>icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></footer>
                 </div>
             </div>
         </section>
