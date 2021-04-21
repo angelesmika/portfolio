@@ -64,6 +64,24 @@ p {
     transform: scale(1.05);
 }
 
+@media (max-width: 978px) {
+    #h1-home {
+        margin-left: 10px;
+    }
+
+    #profile-pic {
+        padding-bottom: 30px;
+    }
+
+    #skills p {
+        margin-bottom: 50px;
+    }
+
+    #skills #last {
+        margin-bottom: 0px;
+    }
+}
+
 /* ================ */
 /* NAVIGATION BAR */
 /* ================ */
@@ -75,9 +93,7 @@ header {
 }
 
 #h1-home {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-right: 2.5vw;
+    margin: auto;
 }
 
 #a-home {
@@ -88,7 +104,7 @@ header {
     text-decoration: none;
 }
 
-.navbar ul {
+.navbar-collapse ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -96,12 +112,12 @@ header {
     align-items: center;
 }
 
-.navbar li {
+.navbar-collapse li {
     padding: 5px;
     margin: 5px;
 }
 
-.navbar a {
+.navbar-collapse a {
     color: white;
     transition: 0.3s;
     font-size: 11pt;
@@ -109,9 +125,25 @@ header {
     font-family: "Raleway", sans-serif;
 }
 
-.navbar a:hover {
+.navbar-collapse a:hover {
     text-decoration: none;
     color: #ffed66;
+} 
+
+.icon-bar {
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+
+.nav > li > a:focus, .nav > li >a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.nav li {
+    margin: 0;
+    padding: 0;
 }
 
 /* ====================== */
